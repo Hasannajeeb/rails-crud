@@ -15,7 +15,6 @@ class Api::V1::QuestionsController < ApplicationController
 
   # POST /questions
   def create
-    puts question_params
     @question = Question.new(question_params)
 
     if @question.save

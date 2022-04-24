@@ -2,8 +2,8 @@
 
 one:
   description: MyText
-  type: MyText
+  level: MyText
 
 two:
   description: MyText
-  type: MyText
+  level: MyText
